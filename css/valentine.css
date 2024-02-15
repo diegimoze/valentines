@@ -1,0 +1,87 @@
+body {
+    background-color:rgba(211, 93, 250, 0.442);
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.heart {
+    display: block;
+    margin: 20px auto 0;
+}
+.valentine {
+    position: relative;
+    color: rgba(248, 47, 47, 0.981);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    z-index: 1;
+    font-size: 70px;
+}
+.blush {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #ff3e3e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.heart-cursor {
+    cursor: url('/valentine/c2.png'), auto;
+}
+::selection {
+    background-color: #ff030356;
+    color: black;
+}
+
+.YES{
+    position: relative;
+    color: rgba(248, 47, 47, 0.981);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    z-index: 1;
+    font-size: 70px;
+    margin-top: 160px;
+}
+
+.yay {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.no {
+        position: relative;
+        color: rgba(248, 47, 47, 0.981);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        z-index: 1;
+        font-size: 70px;
+    }
+    .container {
+        text-align: center;
+    }
+    
+    .buttons1 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
